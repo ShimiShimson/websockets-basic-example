@@ -1,14 +1,16 @@
+# WebSockets Basic Example
 
-WebSockets Basic Example
-This is a simple example demonstrating how to use WebSockets. Follow the steps below to run the example:
+This repository provides a simple example demonstrating how to use WebSockets for communication between a client and a server.
 
-Instructions
-Start the WebSocket server by running the following command in your terminal:
+## Getting Started
 
-Copy code
-node server.js
-Open the index.html file in your web browser.
+### Prerequisites
 
-In your browser, open the Developer Tools (usually by pressing F12 or Ctrl+Shift+I), then navigate to the "Network" tab, and look for "Messages."
+Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
-This example illustrates how WebSockets can be used to establish a communication channel between a client and a server.
+### Installation and Usage
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/websockets-basic-example.git
