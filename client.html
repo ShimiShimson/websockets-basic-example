@@ -1,0 +1,16 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<script>
+    //calling the constructor which gives us the websocket object: ws
+    let ws = new WebSocket('ws://localhost:8000'); 
+    console.log(ws);
+    ws.onopen = (event) => ws.send("This is a message from client");
+    ws.onmessage = (message) => console.log(message.data.toString('utf8'))
+</script>
+
+  <body>
+    <h1>This is a client page</h1>
+  </body>
+</html>
