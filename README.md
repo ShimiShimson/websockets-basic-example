@@ -12,12 +12,15 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/yourusername/websockets-basic-example.git
 ```
-```bash
+bash
+git clone https://github.com/yourusername/websockets-basic-example.git
+```
+
+```
+bash
 node server.js
 ```
-and open index.html.
+and open client.html.
 
 See DevTools > Network > Messages.
