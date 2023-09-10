@@ -14,3 +14,10 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
    ```bash
    git clone https://github.com/yourusername/websockets-basic-example.git
+```
+```bash
+node server.js
+```
+and open index.html.
+
+See DevTools > Network > Messages.
